@@ -1,3 +1,7 @@
+// hello friends this code tell us how to iterate thourgh all key paths 
+into json Object I take a exampel of jsonData is is hard coded you  may get it form
+any api hit or some other way...
+
  function createHashMapFromJsonString(jsonData, parentkey) {
             var localkey = "";
             for (var key in jsonData) {
